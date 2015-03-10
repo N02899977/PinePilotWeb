@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>PineSoft - Race Management Software</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
+    <title>PineSoft - Race Management Software - about</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
+
 </head>
 
 <body>
@@ -26,9 +27,21 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>PineSoft - Home</h1>
-                        <button class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Download PineSoft</button>
-                        <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download PineSoft</a>
+                        <h1>PineSoft - About</h1>
+                        <!-- This template has a responsive menu toggling system. 
+                        	The menu will appear collapsed on smaller screens, 
+                        	and will appear non-collapsed on larger screens. 
+                        	When toggled using the button below, the menu will appear/disappear. 
+                        	On small screens, the page content will be pushed off canvas. -->
+                        	<div class="row">
+							  	<div class="col-xs-12 col-sm-6 col-md-8">
+								<p>Brings a Cross-Platform, Python powered App to Cub Scouts, Boy Scouts and other groups across the world. 
+									Software tools for Pinewood Derbys are under developed. They need to start using platform independent, Web and Mobile enabled technologies.</p>
+
+									<p>Focus on small releases. Develop using Agile methodologies for rapid development. Starting with a fresh code-base leaves a lot of hard work behind. 
+									Starting a new project design will force us to have few starting features. That's okay if we focus on delivering the most important features sooner.</p>
+								</div>
+							</div>
                     </div>
                 </div>
             </div>

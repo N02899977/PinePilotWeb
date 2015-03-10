@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>PineSoft - Race Management Software</title>
+    <title>PineSoft - Race Management Software - features</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
+	
 </head>
 
 <body>
@@ -26,9 +27,52 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>PineSoft - Home</h1>
-                        <button class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Download PineSoft</button>
-                        <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download PineSoft</a>
+                        <h1>PineSoft - Features</h1>
+	                        <div class="panel panel-default">
+							  <!-- Default panel contents -->
+							  <div class="panel-heading" style="font-size: 18px">Features - Version 1.0</div>
+		                        <table class="table table-bordered">
+						 			<tbody>
+						 				<tr>
+						                  	<td>
+						                  		<ul style="list-style-type:square">
+												  <li>It can do this</li>
+												  <li>Can also do this cool thing</li>
+												  <li>Also this</li>
+												  <li>Also this</li>
+												  	<ul style="list-style-type:square">
+												      <li>Sub feature</li>
+												      <li>Another sub feature</li>
+												    </ul>
+												  <li>Also this</li>
+												  <li>Finally this</li>
+												</ul>
+						                  	</td>
+						                </tr>
+						 			</tbody>
+								</table>
+							</div>
+							
+							<img src="images/sample-software-pic.jpg"/ style="padding-bottom: 15px">
+							
+							<div class="panel panel-default">
+							  <!-- Default panel contents -->
+							  <div class="panel-heading" style="font-size: 18px">Requirements</div>
+		                        <table class="table table-bordered">
+						 			<tbody>
+						 				<tr>
+						                  	<td>
+						                  		<ul style="list-style-type:square">
+												  <li>Windows, Mac or Linux (Any OS able to run Python)</li>
+												  <li>x MB of Disk</li>
+												  <li>x MB of RAM</li>
+												  <li>Internet Connection (maybe only on first use)</li>
+												</ul>
+						                  	</td>
+						                </tr>
+						 			</tbody>
+								</table>
+							</div>
                     </div>
                 </div>
             </div>

@@ -6,6 +6,9 @@
 
 /* Toggle Styles */
 
+.content { min-height: 600px; }
+.content, header .container, footer .container { color:#838383; }
+
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -129,6 +132,6 @@ footer {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 50px;
+  height: 30px;
   background-color: #E6EFFF;
 }

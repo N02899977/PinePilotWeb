@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>PineSoft - Race Management Software</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
+    <title>PineSoft - Race Management Software - download</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
+
 </head>
 
 <body>
@@ -26,9 +27,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>PineSoft - Home</h1>
-                        <button class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Download PineSoft</button>
-                        <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download PineSoft</a>
+                        <h1>PineSoft - Download</h1>
+                        <p><a href="#">Download Version 1.0</a></p>
                     </div>
                 </div>
             </div>

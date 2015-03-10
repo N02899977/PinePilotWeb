@@ -2,30 +2,27 @@
         <div id="sidebar-wrapper">
             <ul class="sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#">
-                        Start Bootstrap
+                    <a href="index.php">
+                        PineSoft<i class="glyphicon glyphicon-tree-conifer"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="#">Dashboard</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
-                    <a href="#">Shortcuts</a>
+                    <a href="features.php">Features</a>
                 </li>
                 <li>
-                    <a href="#">Overview</a>
+                    <a href="download.php">Download</a>
                 </li>
                 <li>
-                    <a href="#">Events</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
+                    <a href="about.php">About</a>
                 </li>
                 <li>
                     <a href="#">Services</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>
