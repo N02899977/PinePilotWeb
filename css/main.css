@@ -6,6 +6,15 @@
 
 /* Toggle Styles */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
 .content { min-height: 600px; }
 .content, header .container, footer .container { color:#838383; }
 
@@ -132,6 +141,6 @@ footer {
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 30px;
+  height: 40px;
   background-color: #E6EFFF;
 }
