@@ -7,6 +7,7 @@
 /* Toggle Styles */
 
 html {
+	
   position: relative;
   min-height: 100%;
 }
@@ -16,7 +17,12 @@ body {
 }
 
 .content { min-height: 600px; }
-.content, header .container, footer .container { color:#838383; }
+.content, header .container, footer .container { margin-left: 15px;color:#838383; }
+
+#container1 {
+	padding-left:150px;
+	padding-right:150px;
+}
 
 #wrapper {
     padding-left: 0;
@@ -26,9 +32,9 @@ body {
     transition: all 0.5s ease;
 }
 
-#wrapper.toggled {
+/*#wrapper.toggled {
     padding-left: 250px;
-}
+}*/
 
 #sidebar-wrapper {
     z-index: 1000;
@@ -36,7 +42,7 @@ body {
     left: 250px;
     width: 0;
     height: 100%;
-    margin-left: -250px;
+    margin-left: -100px;
     overflow-y: auto;
     background: #000;
     -webkit-transition: all 0.5s ease;
@@ -45,20 +51,19 @@ body {
     transition: all 0.5s ease;
 }
 
-#wrapper.toggled #sidebar-wrapper {
+/*#wrapper.toggled #sidebar-wrapper {
     width: 250px;
-}
-
+}*/
 #page-content-wrapper {
     width: 100%;
     position: absolute;
     padding: 15px;
 }
 
-#wrapper.toggled #page-content-wrapper {
+/*#wrapper.toggled #page-content-wrapper {
     position: absolute;
     margin-right: -250px;
-}
+}*/
 
 /* Sidebar Styles */
 
@@ -143,4 +148,5 @@ footer {
   /* Set the fixed height of the footer here */
   height: 40px;
   background-color: #E6EFFF;
+  z-index: -1;
 }

@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>PineSoft - Race Management Software - features</title>
+    <title>SoftPine - Race Management Software - features</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
 	
 </head>
 
 <body>
-
+	<div id="container1">
     <div id="wrapper">
 		<?php include ("inc/nav.php"); ?>
         <!-- Page Content -->
@@ -27,7 +27,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>PineSoft - Features</h1>
+                        <h1>SoftPine - Features</h1>
 	                        <div class="panel panel-default">
 							  <!-- Default panel contents -->
 							  <div class="panel-heading" style="font-size: 18px">Features - Version 1.0</div>
@@ -78,17 +78,16 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
-
+            <footer>
+			    <div class="container">
+			        <p>
+			            &copy; 2015 Heidi Fritz 	
+			        </p>
+			    </div>
+			</footer>
     </div>
     <!-- /#wrapper -->
-
-    <footer>
-	    <div class="container">
-	        <p>
-	            &copy; 2015 Heidi Fritz 	
-	        </p>
-	    </div>
-	</footer>
+    </div>
         
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

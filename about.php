@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>PineSoft - Race Management Software - about</title>
+    <title>SoftPine - Race Management Software - about</title>
     <link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
 
 </head>
 
 <body>
-
+	<div id="container1">
     <div id="wrapper">
 		<?php include ("inc/nav.php"); ?>
         <!-- Page Content -->
@@ -27,7 +27,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h1>PineSoft - About</h1>
+                        <h1>SoftPine - About</h1>
                         <!-- This template has a responsive menu toggling system. 
                         	The menu will appear collapsed on smaller screens, 
                         	and will appear non-collapsed on larger screens. 
@@ -47,10 +47,6 @@
             </div>
         </div>
         <!-- /#page-content-wrapper -->
-
-    </div>
-    <!-- /#wrapper -->
-
     <footer>
 	    <div class="container">
 	        <p>
@@ -58,18 +54,14 @@
 	        </p>
 	    </div>
 	</footer>
+    </div>
+    <!-- /#wrapper -->
+    </div>
         
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.4.0/holder.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
 
 </body>
 

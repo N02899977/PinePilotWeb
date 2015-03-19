@@ -13,51 +13,44 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <title>PineSoft - Race Management Software</title>
+    <title>SoftPine - Race Management Software</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/10395.png" />
 </head>
 
 <body>
-
-    <div id="wrapper">
-		<?php include ("inc/nav.php"); ?>
-        <!-- Page Content -->
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1>PineSoft - Home</h1>
-                        <button class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Download PineSoft</button>
-                        <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download PineSoft</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
-    </div>
+	<div id="container1">
+	    <div id="wrapper">
+			<?php include ("inc/nav.php"); ?>
+	        <!-- Page Content -->
+	        <div id="page-content-wrapper">
+	            <div class="container-fluid">
+	                <div class="row">
+	                    <div class="col-lg-12">
+	                        <h1>SoftPine - Home</h1>
+	                        <button class="btn btn-primary"><i class="icon-white icon-download-alt"></i> Download SoftPine</button>
+	                        <a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-download-alt"></span> Download SoftPine</a>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	        <!-- /#page-content-wrapper -->
+			<footer>
+				<div class="container">
+			        <p>
+			            &copy; 2015 Heidi Fritz 	
+			        </p>
+		        </div>
+			</footer>
+		</div>
     <!-- /#wrapper -->
-
-    <footer>
-	    <div class="container">
-	        <p>
-	            &copy; 2015 Heidi Fritz 	
-	        </p>
-	    </div>
-	</footer>
+    </div>
+    <!-- /#container1 -->    
         
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.4.0/holder.js"></script>
-    <!-- Menu Toggle Script -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
+    
 </body>
 
 </html>
